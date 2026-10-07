@@ -16,10 +16,7 @@
       "Clay",
       "Charcoal"
     ],
-    "images": [
-      "p1-a.svg",
-      "p1-b.svg"
-    ],
+    "images": "images": ["p2-overshirt-2.jpg", "p2-overshirt-1.jpg", "p2-beanie-2.jpg", "p1-crewneck-2.jpg", "p1-crewneck-1.jpg", "p3-trouser-1.jpg", "p3-trouser-2.jpg", "p4-tee-1.jpg", "p4-tee-2.jpg", "p5-pant-1.jpg", "p5-pant-2.jpg", "p6-dress-1.jpg", "p6-dress-2.jpg", "p7-tote-1.jpg", "p7-tote-2.jpg", "p8-beanie-1"],
     "description": "A midweight waffle-knit crewneck built from brushed cotton. Relaxed through the body with ribbed cuffs and hem for a fit that holds its shape wash after wash.",
     "details": [
       "100% organic cotton",
