@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <rect width="600" height="750" fill="#EDE6DA"/>
+  <rect x="0" y="0" width="600" height="750" fill="url(#g7a)" opacity="0.5"/>
+  <defs>
+    <linearGradient id="g7a" x1="0" y1="0" x2="600" y2="750" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <text x="300" y="365" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" letter-spacing="3" fill="#1C1A17" text-anchor="middle" opacity="0.55">DEZZLAY</text>
+  <text x="300" y="400" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#1C1A17" text-anchor="middle">RIBBED BEANIE</text>
+</svg>

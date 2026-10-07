@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#DCD2C2"/>
+  <rect width="1600" height="900" fill="url(#heroGrad)" opacity="0.6"/>
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1C1A17" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <text x="800" y="470" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" letter-spacing="4" fill="#1C1A17" text-anchor="middle" opacity="0.6">THE AUTUMN EDIT</text>
+  <text x="800" y="520" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1C1A17" text-anchor="middle" opacity="0.4">DEZZLAY — EST. 2018</text>
+</svg>

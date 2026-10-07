@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400">
+  <rect width="1200" height="1400" fill="#C9B9A4"/>
+  <rect width="1200" height="1400" fill="url(#aboutGrad)" opacity="0.5"/>
+  <defs>
+    <linearGradient id="aboutGrad" x1="0" y1="0" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="700" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="3" fill="#1C1A17" text-anchor="middle" opacity="0.55">OUR WORKSHOP</text>
+  <text x="600" y="736" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#1C1A17" text-anchor="middle" opacity="0.4">Porto, Portugal</text>
+</svg>

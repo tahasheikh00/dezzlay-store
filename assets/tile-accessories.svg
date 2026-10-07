@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#8A8275"/>
+  <rect width="800" height="1000" fill="url(#g)" opacity="0.5"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <text x="400" y="500" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" letter-spacing="4" fill="#F6F3EE" text-anchor="middle">ACCESSORIES</text>
+</svg>

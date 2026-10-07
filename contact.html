@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Dezzlay</title>
+<meta name="description" content="Get in touch with the Dezzlay team — orders, returns, wholesale, and press.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">Free shipping on US orders over $100 · 30-day returns</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/logo.svg" alt="Dezzlay"></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shop.html?category=men">Men</a></li>
+        <li><a href="shop.html?category=women">Women</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" data-search-toggle aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <button class="icon-btn" data-cart-toggle aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" data-cart-count style="display:none;">0</span>
+      </button>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="search-panel">
+    <div class="container">
+      <form>
+        <input type="text" placeholder="Search products…" aria-label="Search products">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim"></div>
+
+<main class="container" style="padding-top:32px; padding-bottom:64px;">
+  <div class="page-header" style="padding-top:0;">
+    <h1>Get in touch</h1>
+    <p>Questions about an order, a return, wholesale, or press? We usually reply within 1–2 business days.</p>
+  </div>
+
+  <div class="two-col">
+    <form id="contact-form">
+      <div class="form-grid">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" required>
+        </div>
+        <div class="field full">
+          <label for="topic">Topic</label>
+          <select id="topic">
+            <option>Order support</option>
+            <option>Returns &amp; exchanges</option>
+            <option>Wholesale</option>
+            <option>Press</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="message">Message</label>
+          <textarea id="message" required></textarea>
+        </div>
+      </div>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+
+    <div>
+      <div class="value-card" style="margin-bottom:16px;">
+        <h3 style="margin-top:0;">Customer care</h3>
+        <p style="color:var(--muted);">hello@dezzlay.example<br>+1 (800) 555-1234<br>Mon–Fri, 9am–5pm GMT</p>
+      </div>
+      <div class="value-card" style="margin-bottom:16px;">
+        <h3 style="margin-top:0;">Workshop</h3>
+        <p style="color:var(--muted);">Rua das Flores 112<br>4050-262 Porto, Portugal</p>
+      </div>
+      <div class="map-placeholder">Map placeholder — embed Google Maps here</div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/logo.svg" alt="Dezzlay" style="height:20px;margin-bottom:12px;">
+        <p>Considered clothing for everyday wear. Designed in small batches, made to outlast trends.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html?category=men">Men</a></li>
+          <li><a href="shop.html?category=women">Women</a></li>
+          <li><a href="shop.html?category=accessories">Accessories</a></li>
+          <li><a href="shop.html">All products</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Shipping &amp; returns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in touch</h4>
+        <ul>
+          <li><a href="mailto:hello@dezzlay.example">hello@dezzlay.example</a></li>
+          <li><a href="tel:+18005551234">+1 (800) 555-1234</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Dezzlay. All rights reserved.</span>
+      <div class="social-row">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cart-drawer-scrim"></div>
+<div class="cart-drawer">
+  <div class="cart-drawer-head">
+    <strong>Your cart</strong>
+    <button class="icon-btn" data-cart-close aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-drawer-body"></div>
+  <div class="cart-drawer-foot"></div>
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/cart-render.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
