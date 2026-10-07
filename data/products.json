@@ -16,7 +16,10 @@
       "Clay",
       "Charcoal"
     ],
-    "images": "images": ["p2-overshirt-2.jpg", "p2-overshirt-1.jpg", "p2-beanie-2.jpg", "p1-crewneck-2.jpg", "p1-crewneck-1.jpg", "p3-trouser-1.jpg", "p3-trouser-2.jpg", "p4-tee-1.jpg", "p4-tee-2.jpg", "p5-pant-1.jpg", "p5-pant-2.jpg", "p6-dress-1.jpg", "p6-dress-2.jpg", "p7-tote-1.jpg", "p7-tote-2.jpg", "p8-beanie-1"],
+    "images": [
+      "p1-crewneck-1.jpg",
+      "p1-crewneck-2.jpg"
+    ],
     "description": "A midweight waffle-knit crewneck built from brushed cotton. Relaxed through the body with ribbed cuffs and hem for a fit that holds its shape wash after wash.",
     "details": [
       "100% organic cotton",
@@ -45,8 +48,8 @@
       "Stone"
     ],
     "images": [
-      "p2-a.svg",
-      "p2-b.svg"
+      "p2-overshirt-1.jpg",
+      "p2-overshirt-2.jpg"
     ],
     "description": "A workwear-inspired overshirt in a dry cotton twill, cut with a boxy body and dropped shoulder. Layers cleanly over a tee or under a coat.",
     "details": [
@@ -76,8 +79,8 @@
       "Khaki"
     ],
     "images": [
-      "p3-a.svg",
-      "p3-b.svg"
+      "p3-trouser-1.jpg",
+      "p3-trouser-2.jpg"
     ],
     "description": "A tailored trouser with a relaxed seat and tapered leg. Finished with a hidden elastic waistband for a clean look with built-in comfort.",
     "details": [
@@ -105,8 +108,8 @@
       "Faded Black"
     ],
     "images": [
-      "p4-a.svg",
-      "p4-b.svg"
+      "p4-tee-1.jpg",
+      "p4-tee-2.jpg"
     ],
     "description": "Our signature tee, made from a heavyweight combed cotton that softens with every wash. A slightly cropped, boxy fit with a reinforced neckline.",
     "details": [
@@ -136,8 +139,8 @@
       "White"
     ],
     "images": [
-      "p5-a.svg",
-      "p5-b.svg"
+      "p5-pant-1.jpg",
+      "p5-pant-2.jpg"
     ],
     "description": "A breathable wide-leg pant cut from washed European linen. High-waisted with a flat front and a fluid drape that moves with you.",
     "details": [
@@ -165,8 +168,8 @@
       "Navy"
     ],
     "images": [
-      "p6-a.svg",
-      "p6-b.svg"
+      "p6-dress-1.jpg",
+      "p6-dress-2.jpg"
     ],
     "description": "A midi wrap dress in a fluid crepe fabric with a self-tie belt. Cut for an easy, flattering drape from day into evening.",
     "details": [
@@ -190,8 +193,8 @@
       "Natural"
     ],
     "images": [
-      "p7-a.svg",
-      "p7-b.svg"
+      "p7-tote-1.jpg",
+      "p7-tote-2.jpg"
     ],
     "description": "A heavy-duty cotton canvas tote with reinforced handles and an interior pocket. Built for daily errands and market runs alike.",
     "details": [
@@ -217,8 +220,8 @@
       "Olive"
     ],
     "images": [
-      "p8-a.svg",
-      "p8-b.svg"
+      "p8-beanie-1.jpg",
+      "p8-beanie-2.jpg"
     ],
     "description": "A classic ribbed beanie in a fine-gauge wool blend. Unlined and fitted for a close, everyday silhouette.",
     "details": [
