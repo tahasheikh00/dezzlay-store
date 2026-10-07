@@ -72,7 +72,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 58;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
@@ -174,13 +174,14 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
     inset: 0 20% 0 0;
     top: 0;
     background: var(--bg);
-    transform: translateX(100%);
+    transform: translateX(100vw);
     transition: transform 0.25s ease;
     padding: var(--space-6) var(--space-4);
     border-left: 1px solid var(--border);
     z-index: 60;
+    pointer-events: none;
   }
-  .main-nav.open { transform: translateX(0); }
+  .main-nav.open { transform: translateX(0); pointer-events: auto; }
   .main-nav ul { flex-direction: column; gap: var(--space-3); }
   .main-nav a { font-size: 1.1rem; }
   .menu-toggle { display: flex; }
@@ -618,12 +619,18 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 }
 .newsletter input {
   flex: 1;
+  min-width: 0;
   border: 1px solid #4A463F;
   background: #2A2722;
   color: var(--bg);
   padding: 12px;
 }
 .newsletter input::placeholder { color: #A9A298; }
+
+@media (max-width: 480px) {
+  .newsletter form { flex-direction: column; }
+  .newsletter button { width: 100%; }
+}
 
 /* ---------- Footer ---------- */
 .site-footer {
