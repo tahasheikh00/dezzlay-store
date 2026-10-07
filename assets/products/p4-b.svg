@@ -1,12 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
-  <rect width="600" height="750" fill="#B5A68E"/>
-  <rect x="0" y="0" width="600" height="750" fill="url(#g3b)" opacity="0.5"/>
   <defs>
-    <linearGradient id="g3b" x1="0" y1="0" x2="600" y2="750" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="600" y2="750" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.06"/>
     </linearGradient>
   </defs>
-  <text x="300" y="365" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" letter-spacing="3" fill="#1C1A17" text-anchor="middle" opacity="0.55">VIEW 02</text>
-  <text x="300" y="400" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#1C1A17" text-anchor="middle">CLOUD COTTON TEE</text>
+  <rect width="600" height="750" fill="#F2ECE2"/>
+  <rect width="600" height="750" fill="url(#bgGrad)"/>
+  <g transform="translate(300,375)">
+    
+    <g>
+      <path d="M -110,-140 L -60,-165 Q 0,-135 60,-165 L 110,-140 L 140,-90 L 90,-60 L 90,170 L -90,170 L -90,-60 L -140,-90 Z"
+            fill="#D9CEBB" stroke="#A6562D" stroke-width="4"/>
+      <path d="M -60,-165 Q 0,-135 60,-165 Q 45,-135 0,-128 Q -45,-135 -60,-165 Z" fill="#A6562D"/>
+    </g>
+  </g>
 </svg>

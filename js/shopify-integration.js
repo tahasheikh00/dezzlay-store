@@ -57,7 +57,10 @@ function renderShopifyProduct(containerId, shopifyProductId) {
     ui.createComponent('product', {
       id: shopifyProductId,
       node: document.getElementById(containerId),
-      moneyFormat: '%24%7B%7Bamount%7D%7D',
+      // '%24%7B%7Bamount%7D%7D' = "${{amount}}" (USD). For PKR, use your
+      // Shopify store's currency formatting instead — Shopify applies the
+      // store's own currency format automatically in most cases, so this
+      // line can usually be left out entirely.
       options: {
         product: {
           styles: {

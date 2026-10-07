@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <div class="add-to-cart-row">
           <button class="btn btn-block" id="add-to-cart-btn">Add to cart — ${formatPrice(product.price)}</button>
         </div>
-        <p class="form-note">Free shipping on orders over $100. Easy 30-day returns.</p>
+        <p class="form-note">Free shipping on orders over Rs. 15,000. Easy 30-day returns.</p>
 
         <div style="margin-top:32px;">
           <details class="accordion-item" open>
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           </details>
           <details class="accordion-item">
             <summary>Shipping &amp; returns</summary>
-            <p>Orders ship within 2 business days. Free standard shipping on orders over $100. Returns accepted within 30 days in original condition.</p>
+            <p>Orders ship within 2 business days. Free standard shipping on orders over Rs. 15,000. Returns accepted within 30 days in original condition.</p>
           </details>
           <details class="accordion-item">
             <summary>Size &amp; fit</summary>

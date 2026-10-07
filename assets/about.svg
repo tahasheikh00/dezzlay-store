@@ -1,12 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400">
-  <rect width="1200" height="1400" fill="#C9B9A4"/>
-  <rect width="1200" height="1400" fill="url(#aboutGrad)" opacity="0.5"/>
   <defs>
-    <linearGradient id="aboutGrad" x1="0" y1="0" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.15"/>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EDE6DA"/>
+      <stop offset="1" stop-color="#C9B9A4"/>
     </linearGradient>
   </defs>
-  <text x="600" y="700" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="3" fill="#1C1A17" text-anchor="middle" opacity="0.55">OUR WORKSHOP</text>
-  <text x="600" y="736" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#1C1A17" text-anchor="middle" opacity="0.4">Porto, Portugal</text>
+  <rect width="1200" height="1400" fill="url(#aboutBg)"/>
+  
+<g transform="translate(600,700)">
+  <!-- table -->
+  <rect x="-420" y="40" width="840" height="24" fill="#8A8275"/>
+  <!-- fabric roll -->
+  <rect x="-380" y="-120" width="140" height="160" rx="16" fill="#D8C9B6" stroke="#1C1A17" stroke-width="4"/>
+  <ellipse cx="-380" cy="-120" rx="16" ry="16" fill="#C9B9A4" stroke="#1C1A17" stroke-width="4"/>
+  <!-- sewing machine body -->
+  <path d="M -140,40 L -140,-40 Q -140,-110 -40,-110 L 180,-110 Q 220,-110 220,-70 L 220,-10 Q 220,20 190,20 L 40,20 L 40,40 Z"
+        fill="#1C1A17"/>
+  <circle cx="190" cy="-60" r="16" fill="#A6562D"/>
+  <rect x="-20" y="20" width="16" height="60" fill="#1C1A17"/>
+  <rect x="-60" y="78" width="96" height="14" rx="6" fill="#1C1A17"/>
+  <!-- needle arm -->
+  <rect x="150" y="-10" width="10" height="55" fill="#1C1A17"/>
+  <!-- spool of thread -->
+  <circle cx="150" cy="-95" r="18" fill="#A6562D" stroke="#1C1A17" stroke-width="3"/>
+</g>
 </svg>

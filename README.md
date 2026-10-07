@@ -167,5 +167,16 @@ Shopify stays the source of truth for inventory and payment.
 - The newsletter and contact forms are UI-only (they show a confirmation
   toast but don't send anywhere). Wire them to a form service (Formspree,
   Shopify's own contact form, etc.) or your email provider when ready.
-- All product photography is placeholder SVG artwork labeled with the
-  product name, meant to be swapped for real photos.
+- All product imagery is illustrated placeholder artwork (flat vector
+  icons of each garment) rather than real photos — this avoids shipping
+  copyrighted stock photography in a commercial template. Swap the files
+  in `assets/products/`, `assets/hero.svg`, `assets/about.svg`, and the
+  three `assets/tile-*.svg` files for real product photography when you
+  have it; same filenames, any image format works (just update the
+  references in `data/products.json` and the HTML files if you rename
+  them).
+- Prices are in Pakistani Rupees (Rs.), formatted in `js/products.js`
+  (`formatPrice`). Edit the numbers in `data/products.json` to change
+  individual prices, and the free-shipping threshold in `js/cart-render.js`
+  and the topbar text in each HTML file if you change the Rs. 15,000
+  free-shipping cutoff.

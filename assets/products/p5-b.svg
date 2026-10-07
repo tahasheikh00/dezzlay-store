@@ -1,12 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
-  <rect width="600" height="750" fill="#A6562D"/>
-  <rect x="0" y="0" width="600" height="750" fill="url(#g4b)" opacity="0.5"/>
   <defs>
-    <linearGradient id="g4b" x1="0" y1="0" x2="600" y2="750" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="600" y2="750" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.06"/>
     </linearGradient>
   </defs>
-  <text x="300" y="365" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" letter-spacing="3" fill="#1C1A17" text-anchor="middle" opacity="0.55">VIEW 02</text>
-  <text x="300" y="400" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#1C1A17" text-anchor="middle">WIDE-LEG LINEN PANT</text>
+  <rect width="600" height="750" fill="#EFEAE0"/>
+  <rect width="600" height="750" fill="url(#bgGrad)"/>
+  <g transform="translate(300,375)">
+    
+    <g>
+      <path d="M -110,-170 L 110,-170 L 125,175 L 55,175 L 15,-30 L -15,-30 L -55,175 L -125,175 Z"
+            fill="#D9CEBB" stroke="#A6562D" stroke-width="4"/>
+      <line x1="-110" y1="-125" x2="110" y2="-125" stroke="#A6562D" stroke-width="3" opacity="0.4"/>
+    </g>
+  </g>
 </svg>

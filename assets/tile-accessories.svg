@@ -1,11 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
-  <rect width="800" height="1000" fill="#8A8275"/>
-  <rect width="800" height="1000" fill="url(#g)" opacity="0.5"/>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.2"/>
+    <linearGradient id="tg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.18"/>
     </linearGradient>
   </defs>
-  <text x="400" y="500" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" letter-spacing="4" fill="#F6F3EE" text-anchor="middle">ACCESSORIES</text>
+  <rect width="800" height="1000" fill="#8A8275"/>
+  <rect width="800" height="1000" fill="url(#tg)"/>
+  <g transform="translate(400,460) scale(1.3)">
+    
+    <g>
+      <path d="M -130,-60 L 130,-60 L 150,200 L -150,200 Z" fill="#F6F3EE" stroke="#1C1A17" stroke-width="4"/>
+      <path d="M -70,-60 L -70,-130 Q -70,-170 0,-170 Q 70,-170 70,-130 L 70,-60"
+            fill="none" stroke="#1C1A17" stroke-width="10" stroke-linecap="round"/>
+      <line x1="-130" y1="-10" x2="130" y2="-10" stroke="#1C1A17" stroke-width="3" opacity="0.3"/>
+    </g>
+  </g>
+  <text x="400" y="900" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" letter-spacing="4" fill="#F6F3EE" text-anchor="middle">ACCESSORIES</text>
 </svg>

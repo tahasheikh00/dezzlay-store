@@ -30,7 +30,8 @@ async function getProductById(id) {
 }
 
 function formatPrice(amount) {
-  return `$${Number(amount).toFixed(2)}`;
+  const rounded = Math.round(Number(amount));
+  return `Rs. ${rounded.toLocaleString('en-PK')}`;
 }
 
 function productImagePath(filename) {

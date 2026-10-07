@@ -92,7 +92,7 @@ async function renderCartPage() {
       </div>`;
   }).join('');
 
-  const shipping = subtotal > 0 ? (subtotal >= 100 ? 0 : 8) : 0;
+  const shipping = subtotal > 0 ? (subtotal >= 15000 ? 0 : 350) : 0;
   if (summary) {
     summary.style.display = '';
     summary.innerHTML = `
