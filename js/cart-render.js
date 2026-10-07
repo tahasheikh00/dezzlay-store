@@ -100,12 +100,8 @@ async function renderCartPage() {
       <div class="summary-row"><span>Subtotal</span><span>${formatPrice(subtotal)}</span></div>
       <div class="summary-row"><span>Shipping</span><span>${shipping === 0 ? 'Free' : formatPrice(shipping)}</span></div>
       <div class="summary-row total"><span>Total</span><span>${formatPrice(subtotal + shipping)}</span></div>
-      <button class="btn btn-block" id="checkout-btn" style="margin-top:16px;">Checkout</button>
-      <p class="form-note">Checkout connects to Shopify once configured — see README.md.</p>`;
-
-    document.querySelector('#checkout-btn').addEventListener('click', () => {
-      showToast('Connect Shopify to enable checkout — see README.md');
-    });
+      <a class="btn btn-block" id="checkout-btn" href="checkout.html" style="margin-top:16px;">Checkout</a>
+      <p class="form-note">Cash on Delivery. You'll enter your delivery details on the next step.</p>`;
   }
 
   body.querySelectorAll('[data-remove]').forEach((btn) => {
